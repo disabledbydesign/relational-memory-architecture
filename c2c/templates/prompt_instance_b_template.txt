@@ -140,7 +140,10 @@ Include:
 - Challenge A when something is wrong; pushback is essential, not optional
 - Flag anything requiring June's direction
 
-At session close: contribute to the handoff briefing in `artifacts/` — annotate or flag anything in A's draft that misrepresents what the session actually produced.
+At session close — in this order:
+1. Update `PROJECT_CONTEXT_MAP.md`: add new artifacts (path + one-line description), move settled questions to standing decisions, add any newly discovered relevant files
+2. Contribute to the handoff briefing in `artifacts/` — annotate or flag anything in A's draft that misrepresents what the session actually produced
+3. Flag to June: **remove the notification cron jobs** for this session (both A and B entries)
 
 ---
 

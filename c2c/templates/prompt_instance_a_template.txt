@@ -134,7 +134,10 @@ Include:
 - Challenge B when something is wrong; pushback is essential
 - Flag anything requiring June's direction
 
-At session close: produce a handoff briefing in `artifacts/` for the next session.
+At session close — in this order:
+1. Update `PROJECT_CONTEXT_MAP.md`: add new artifacts (path + one-line description), move settled questions to standing decisions, add any newly discovered relevant files
+2. Produce a handoff briefing in `artifacts/` for the next session
+3. Flag to June: **remove the notification cron jobs** for this session (both A and B entries)
 
 ---
 
